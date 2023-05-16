@@ -79,16 +79,17 @@
 </head>
 <body>
 
-    <div class="btn-theme">
-        <button id="dark">☀</button>
-        <button id="light">🌑</button>
-    </div>
+    <div class="contenedor">
+        div class="btn-theme">
+            <button id="dark">☀</button>
+            <button id="light">🌑</button>
+        </div>
 
     <header id="Titulo">
         <h1>Portafolio</h1>
     </header>
 
-    <section class="contenedor">
+    <section class="contenedor2">
         <img src="https://cdn.pixabay.com/photo/2015/09/17/17/25/code-944499_960_720.jpg" alt="">
     <div id="texto"> <p>Este es un plantilla para un sitio tipo Portafolio
     </p>
@@ -100,26 +101,26 @@
 
    
     <section id="Cartas">
-        <a href="#">Boton 1</a>
-        <a href="#">boton 2</a>
-        <a href="#">Boton 3</a>
-        <a href="#">Boton 4</a>
+        <a href="#" class="links">Boton 1</a>
+        <a href="#" class="links">boton 2</a>
+        <a href="#" class="links">Boton 3</a>
+        <a href="#" class="links">Boton 4</a>
     </section>
 
    <footer>
     <P>By Jose Nieves</P>
    </footer>
+</div>
 </body>
 <script>
     $(document).ready(function(){
 
         $("#light").hide();
         $("#dark").click(function(){
-            $(body).addClass("dark")
-            $("")
+            $(".contenedor").addClass("dark")
+            $("#texto").addClass("dark-texto")
+            $(".links").addClass("dark-a")
         })
-        $("#texto").addClass("dark-texto")
-        $(a).addClass("dark-a")
     })
 </script>
 </html>
