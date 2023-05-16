@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <title>Template Portafolio</title>
     <style>
 
@@ -50,9 +50,40 @@
     footer{
         color: gray;
     }
+
+    .dark{
+        background-color: #272727;
+    }
+
+    .dark-ul{
+        text-decoration: solid black;
+    }
+
+    .dark-texto{
+        font-size: 17px;
+    }
+
+    .dark-a{
+        color: white;
+        background: transparent;
+    }
+
+    .dark-a:hover{
+        color: black;
+        background-color: #FFC700;
+    }
+
+
+
     </style>
 </head>
 <body>
+
+    <div class="btn-theme">
+        <button id="dark">☀</button>
+        <button id="light">🌑</button>
+    </div>
+
     <header id="Titulo">
         <h1>Portafolio</h1>
     </header>
@@ -79,4 +110,16 @@
     <P>By Jose Nieves</P>
    </footer>
 </body>
+<script>
+    $(document).ready(function(){
+
+        $("#light").hide();
+        $("#dark").click(function(){
+            $(body).addClass("dark")
+            $("")
+        })
+        $("#texto").addClass("dark-texto")
+        $(a).addClass("dark-a")
+    })
+</script>
 </html>
