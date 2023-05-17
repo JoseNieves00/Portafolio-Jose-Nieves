@@ -1,2 +1,5 @@
-Este es la pagina demo para una plantilla en este caso para un portafolio, en el contamos con la posibilidad de colocar una imagen, descripcion, y tiene 4 botones para redirecionar a redes sociales o el sitio web que se desee, totalmente personalizable
+Hola soy JOSE, apasionado por la tecnología, me encanta aprender cosas nuevas, entre otras cosas soy músico, más específicamente pianista. De alguna forma u otra aprender un instrumento a hecho que se desarrolle mi lógica y mi forma de afrontar una problematica.
+
 <strong><br>By Jose Nieves</strong>
+
+<a href="https://portafolio-jose-nieves.netlify.app">Click aqui para ingresar al portafolio</a>
